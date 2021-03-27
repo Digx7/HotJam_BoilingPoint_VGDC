@@ -14,12 +14,12 @@ public class Ice_BreakableWall : MonoBehaviour
 
         if(xAxis)
         {
-            if (col.gameObject.tag == tagToLookFor && impactVelocity.x > impactTreshHold) WallBreak();
+            if (col.gameObject.tag == tagToLookFor && impactVelocity.x < impactTreshHold) WallBreak();
 
         }
         else
         {
-            if (col.gameObject.tag == tagToLookFor && impactVelocity.y > impactTreshHold) WallBreak();
+            if (col.gameObject.tag == tagToLookFor && impactVelocity.y < impactTreshHold) WallBreak();
         }
         //else Debug.Log("Wall is good");
     }

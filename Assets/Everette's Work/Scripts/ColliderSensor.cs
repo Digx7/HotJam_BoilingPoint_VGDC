@@ -10,4 +10,8 @@ public class ColliderSensor : MonoBehaviour
     public void OnCollisionEnter2d(Collider2D col){
       ouch.Invoke();
     }
+
+    public void OnTriggerEnter2D(Collider2D col){
+      ouch.Invoke();
+    }
 }

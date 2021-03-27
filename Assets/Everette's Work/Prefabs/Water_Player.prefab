@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 6481358987202339275}
-  speed: 3
+  speed: 5
   jumpSpeed: 2
   jumpTime: 0.6
   gravity: 1
