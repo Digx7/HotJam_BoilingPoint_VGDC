@@ -100,7 +100,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -8361319130273248633, guid: 5ecb3720be77abc4f911d25c62fbc283,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -222,9 +223,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 6481358987202339275}
-  speed: 2
-  jumpSpeed: 1.5
-  jumpTime: 0.25
+  speed: 3
+  jumpSpeed: 2
+  jumpTime: 0.6
   gravity: 1
   isJumping: 0
   isTouchingGround: 0
@@ -306,7 +307,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.0683335
+  orthographic size: 1.8743314
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
