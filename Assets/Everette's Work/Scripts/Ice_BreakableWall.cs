@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ice_BreakableWall : MonoBehaviour
 {
+    [SerializeField] private string tagToLookFor;
     [SerializeField] private float impactTreshHold = 1.0f;
     [SerializeField] private GameObject breakingParticles;
 
@@ -11,7 +12,7 @@ public class Ice_BreakableWall : MonoBehaviour
       Vector2 impactVelocity = col.relativeVelocity;
       //Debug.Log("Impact Velocity = " + impactVelocity.x);
 
-      if(impactVelocity.x > impactTreshHold) WallBreak();
+      if(col.gameObject.tag == tagToLookFor && impactVelocity.x > impactTreshHold) WallBreak();
       //else Debug.Log("Wall is good");
     }
 

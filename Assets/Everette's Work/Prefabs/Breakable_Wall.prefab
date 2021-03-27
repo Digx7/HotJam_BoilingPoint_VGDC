@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5fd152ca9cb7e040acf0db9797d1c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagToLookFor: Ice
   impactTreshHold: 1
   breakingParticles: {fileID: 2799789654968721572, guid: 8648a277d8bcb8a468b6f9e20ff74659,
     type: 3}
